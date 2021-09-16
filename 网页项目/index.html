@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.css" >
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/meanmenu.min.css">
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/boxicons.min.css">
+
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+  <script src="/jquery-3.6.0.min.js"></script>
+
+		<!-- icofont CSS -->
+		<link rel="stylesheet" href="/lib/icofont/css/icofont.css"/>
+        <!-- 字体css -->
+		<link href="css/font.css" rel="stylesheet">
+		<!-- 背景图片css -->
+        <link rel="stylesheet" href="/css/背景图片.css">
+        <!-- 北海美景 -->
+        <link rel="stylesheet" href="css/美景.css">
+        <!-- 新闻资讯 -->
+        <link rel="stylesheet" href="css/新闻资讯.css">
+        <!-- 图片滚动 -->
+        <link rel="stylesheet" href="css/滚动图片.css">
+        <!-- table栏切换 -->
+        <link rel="stylesheet" href="css/table栏切换.css">
+        <!-- 图片文字轮播 -->
+        <!-- 底部 -->
+        <link rel="stylesheet" href="css/底部测试.css">
+
+
+    <style>
+
+    </style>
+</head>
+<body>
+            <header class="header-area">
+
+                <div class="main-navbar-area">
+                    <div class="main-responsive-nav">
+                        <div class="container">
+                            <div class="main-responsive-menu">
+                                <div class="logo">
+                                    <a href="index.html">
+                                       <img src="/image/美食/w.png" alt="">
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="main-nav">
+                        <div class="container">
+                            <nav class="navbar navbar-expand-md navbar-light">
+                                <a class="navbar-brand" href="index.html">
+                                  <img src="/image/美食/w.png" alt="">
+                                </a>
+                                <div class="collapse navbar-collapse mean-menu">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link active toggle">首页</a>
+                                            <ul class="dropdown-menu">
+                                 
+                                            </ul>
+                                        </li>
+    
+                                        <li class="nav-item">
+                                            <a href="北海美食.html" class="nav-link toggle">北海美食</a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a href="特色美食.html" class="nav-link">特色美食</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="美食排行榜.html" class="nav-link">美食排行榜</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="线路推荐.html" class="nav-link">线路推荐</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+    
+                                        <li class="nav-item">
+                                            <a href="/历史回顾.html" class="nav-link toggle">北海历史</a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a href="北海简介.html" class="nav-link">北海简介</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+    
+                                        <li class="nav-item"><a href="/北海美景.html" class="nav-link toggle">北海美景</a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a href="游玩路线.html" class="nav-link">线路推荐</a>
+                                                </li>
+
+                                            </ul>
+                                        </li>        
+                                    </ul>
+                                    
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+
+		<div class="header-section parallax" id="header">
+			<div class="overlay light">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="header-texts">
+								<h4>这里是/<small>广西</small></h4>
+								<h3>旅游城市</h3>
+								<h1>北海欢迎你</h1>
+								<div class="container">
+                                    <!-- 按钮：用于打开模态框 -->
+                                    <button type="button" class="button btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                      详情介绍
+                                    </button>
+                                     
+                                    <!-- 模态框 -->
+                                    <div class="modal fade" id="myModal">
+                                      <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                     
+                                          <!-- 模态框头部 -->
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          </div>
+                                     
+                                          <!-- 模态框主体 -->
+                                          <div class="modal-body">
+                                            <p>
+                                              <span id="span">【地理位置及特点】北海市位于广西南部、北部湾东海岸，位于东经108°50′45″～109°47′28″，北纬20°26′～21°55′34″之间，全市南北跨度114公里，东西跨度93公里。境内有钦北铁路、209、325国道经过，高速公路可直达南宁、玉林、湛江等地，把北海与桂林、重庆、成都、广州等重要城市连接起来，构筑了中国西南地区便捷的公路出海通道。市政府所在地为海城区，距离自治区首府南宁市220公里。北海开放历史悠久，文化底蕴深厚，是古代“海上丝绸之路”的重要始发港，是国家历史文化名城、广西北部湾经济区重要组成城市。北海区位优势突出，地处华南经济圈、西南经济圈和东盟经济圈的结合部，处于泛北部湾经济合作区域结合部的中心位置，是中国西部地区唯一列入全国首批14个进一步对外开放的沿海城市，也是中国西部唯一同时拥有深水海港、全天候机场、高速铁路和高速公路的城市。北海旅游资源丰富，生态环境优良，是享誉海内外的旅游休闲度假胜地。</span>
+                                              <a href="javascript:;" id="a">>>收缩</a>
+                                          </p>
+                                          </div>
+                                     
+                                          <!-- 模态框底部 -->
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                                          </div>
+                                     
+                                        </div>
+                                      </div>
+                                    </div>
+                                    
+                                  </div>
+							</div>
+						</div><!-- .col -->
+						<div class="col-md-1"></div><!-- .col -->
+						<div class="col-md-4">
+							<div class="header-video">
+								<a href="/image/beivideo.mp4" data-effect="mfp-3d-unfold" class="play-button embaded-popup">
+									<span class="pb-border-1">
+										<span class="pb-border-2">
+											<i class="icofont icofont-ui-play"></i>
+										</span>
+									</span>
+								</a><!-- .play-button -->
+							</div>
+                            
+						</div><!-- .col -->
+						<div class="col-md-1"></div><!-- .col -->
+					</div><!-- .row -->
+				</div><!-- .container -->
+			</div><!-- .overlay -->
+		</div><!-- .header-section -->
+
+        <div class="process-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						<div class="single-process">
+							<i class="icofont icofont-map-pins"></i>
+							<h6>目的地</h6>
+							<p>去北海的海边吹吹晚风，看看日落，吃吃海鲜，这一定是一个让你难忘的城市</p>
+						</div>
+					</div><!-- .col -->
+					<div class="col-md-4 col-sm-6">
+						<div class="single-process">
+							<i class="icofont icofont-plane-ticket"></i>
+							<h6>酒店方便</h6>
+							<p>这里有你想要的最佳看日落的落地窗酒店</p>
+						</div>
+					</div><!-- .col -->
+					<div class="col-md-4 col-sm-6">
+						<div class="single-process">
+							<i class="icofont icofont-travelling"></i>
+							<h6>旅途方便</h6>
+							<p>飞机直达北海,在北海旅行出行方便,小电驴带你领略不同的风土人情</p>
+						</div>
+					</div><!-- .col -->
+				</div><!-- .row -->
+			</div><!-- .container -->
+		</div><!-- .process-section -->
+
+        <!-- 北海图片放映 -->
+        <div class="section-title">
+            <h2>
+                    <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">北海图片展</font>
+                </font>
+            </h2>
+                <p>
+                    <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">北海的美景，文化，美食还需亲自来体会</font>
+                </p>
+        </div>
+        <div class="container">
+                <div class="wrap">
+                    <ul>
+                        <li><img src="/image/风景/yt.jpg" alt="" style="width:90%;"></li>
+                        <li><img src="/image/风景/YT_1.jpg" alt="" style="width:90%;"></li>
+                        <li><img src="/image/美食/越南卷粉.jpg" alt="" style="width:90%;"></li>
+                        <li><img src="/image/风景/浪花.jpg" alt="" style="width:90%;"></li>
+                        <li><img src="/image/风景/涠洲岛4.jpg" alt="" style="width:90%;"></li>
+                        <li><img src="/image/风景/风景3.png" alt="" style="width:90%;"></li>
+                        <li><img src="/image/风景/涠洲岛5.jpg" alt="" style="width:90%;"></li>
+                        <li><img src="/image/美食/爆炒花甲螺.jpg" alt="" style="width:90%;"></li>
+                    </ul>
+                </div> <!-- 图片展示-end -->
+        </div>
+        <!-- 结束 -->
+
+        <!-- 北海美食 -->
+        <div class="container">
+            <section id="destination" class="destination-section pt-100 pb-70 bg-light">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>北海美食</h2>
+                        <p>北海的美食犹如一幅画，让人流连忘返。早上五六点的日出，傍晚六七点的晚霞，听着海边的呼喊，这样的美景不值得你游玩吗</p>
+                    </div>
+                   
+                    <div class="row filtr-container">
+                        <div class="col-lg-4 col-md-6 filtr-item" data-category="1" data-sort="value">
+                            <div class="item-single mb-30">
+                                <div class="image">
+                                    <img src="/image/美食/bzsc.jpg" alt="Demo Image" style="height: 220px;">
+                                </div>
+                                <div class="content">
+                                    <span class="location">北海</span>
+                                    <h3>
+                                        <a href="destination-details.html">沙虫</a>
+                                    </h3>
+                                    <div class="review">
+                                        <span>8.5</span>
+                                        <span>评分</span>
+                                    </div>
+                                    <p>
+                                        沙虫，学名方格星虫，是一种非常美味的海鲜品种，生长在沿海滩涂。因为对生长环境的质量十分敏感，一旦污染则不能成活，因而有“环境标志生物”之称。
+                                    </p>
+                                    <hr>
+                                    <!-- <ul class="list">
+                                        <li><i class='bx bx-time'></i>3 Days</li>
+                                        <li><i class='bx bx-group'></i>160+</li>
+                                        <li>$500</li>
+                                    </ul> -->
+                                </div>
+                                <div class="spacer"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 filtr-item" data-category="2, 1" data-sort="value">
+                            <div class="item-single mb-30">
+                                <div class="image">
+                                    <img src="/image/美食/爆炒花甲螺.jpg" alt="Demo Image" style="height: 220px;">
+                                </div>
+                                <div class="content">
+                                    <span class="location">北海</span>
+                                    <h3>
+                                        <a href="destination-details.html">爆炒花甲螺</a>
+                                    </h3>
+                                    <div class="review">
+    
+                                        <span>9</span>
+                                        <span>评分</span>
+                                    </div>
+                                    <p>
+                                        花甲贝，即波纹巴非蛤，是中国南海著名的海产经济贝类，又称为花甲螺、油蛤或花蚶，是一种经济价值较高的双壳贝类，故已成为一个优良的海水增养殖品种。
+                                    </p>
+                                    <hr>
+                                   
+                                </div>
+                                <div class="spacer"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 filtr-item" data-category="2" data-sort="value">
+                            <div class="item-single mb-30">
+                                <div class="image">
+                                    <img src="/image/美食/糖水.jpg" alt="Demo Image" style="height: 220px;">
+                                </div>
+                                <div class="content">
+                                    <span class="location">北海</span>
+                                    <h3>
+                                        <a href="destination-details.html">糖水</a>
+                                    </h3>
+                                    <div class="review">
+                                    
+                                        <span>7.5</span>
+                                        <span>Superb</span>
+                                    </div>
+                                    <p>
+                                        喝糖水是两广地区的一种特色文化，北海各式各样的糖水在别的省份是很少见的。
+                                    </p>
+                                    <hr>
+                                   
+                                </div>
+                                <div class="spacer"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 filtr-item" data-category="2, 3" data-sort="value">
+                            <div class="item-single mb-30">
+                                <div class="image">
+                                    <img src="/image/美食/越香小厨1.jpg" alt="Demo Image" style="height: 220px;">
+                                </div>
+                                <div class="content">
+                                    <span class="location">北海</span>
+                                    <h3>
+                                        <a href="destination-details.html">芒果绵绵冰</a>
+                                    </h3>
+                                    <div class="review">
+                                        
+                                        <span>9</span>
+                                        <span>评分</span>
+                                    </div>
+                                    <p>
+                                       在北海侨港里面藏着非常独特的小吃，芒果绵绵冰非常值得品尝
+                                    </p>
+                                    <hr>
+                    
+                                </div>
+                                <div class="spacer"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 filtr-item" data-category="1, 3" data-sort="value">
+                            <div class="item-single mb-30">
+                                <div class="image">
+                                    <img src="/image/美食/越香小厨2.jpg" alt="Demo Image" style="height: 220px;">
+                                </div>
+                                <div class="content">
+                                    <span class="location">北海</span>
+                                    <h3>
+                                        <a href="destination-details.html">越南风情水果捞</a>
+                                    </h3>
+                                    <div class="review">
+
+                                        <span>8.5</span>
+                                        <span>评分</span>
+                                    </div>
+                                    <p>
+                                       各种水果混合在一起，让你得到舌尖上的升华
+                                    </p>
+                                    <hr>
+
+                                  
+                                </div>
+                                <div class="spacer"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 filtr-item" data-category="3, 1" data-sort="value">
+                            <div class="item-single mb-30">
+                                <div class="image">
+                                    <img src="/image/美食/北海文哈.jpg" alt="Demo Image" style="height: 220px;">
+                                </div>
+                                <div class="content">
+                                    <span class="location">北海</span>
+                                    <h3>
+                                        <a href="destination-details.html">文哈</a>
+                                    </h3>
+                                    <div class="review">
+                                        <span>8.5</span>
+                                        <span>评分</span>
+                                    </div>
+                                    <p>
+                                        文蛤又名花蛤，花蚬子，车螺，花蛤，黄蛤，海蛤，贵妃蚌，在台湾俗称蚶仔，粉蛲等。文蛤耐干能力较强，营养价值较高
+                                    </p>
+                                    <hr>
+                                  
+                                </div>
+                                <div class="spacer"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 北海美景 -->
+        <br><br>
+        <div class="container">
+            <div class="section-title">
+                <h2>北海美景</h2>
+                <p>北海的美景犹如一幅画，让人流连忘返。早上五六点的日出，傍晚六七点的晚霞，听着海边的呼喊，这样的美景不值得你游玩吗</p>
+            </div>
+        </div>
+        
+            <div class="tab">
+              <div class="tab_list">
+                <ul>
+                  <li class="current">银滩</li>
+                  <li>罐头岭</li>
+                  <li>涠洲岛</li>
+                  <li>红树林</li>
+                  <!-- <li>手机社区</li> -->
+                </ul>
+              </div>
+              <div class="tab_con">
+                <div class="item container" style="display: block;">
+                    <section class="ftco-section ftco-section-2 bg-primary" id="carousel"> 
+                        <div class="container">
+                            <div class="row justify-content-center" style="width: 100%; height: 100%;">
+                                <div class="col-md-5">
+                                    <h2 class="heading-section mb-4 pb-md-3">
+                                        <!-- Bootstrap Carousel -->
+                                    </h2>
+                                    <p>银滩景区由原银滩公园和海滩公园构成，
+                                        位于北海半岛东南部，距市中心约8公里。银滩有“南方北戴河，东方夏威夷”的美誉，素以“滩长平、沙细白、水温净、
+                                        浪柔软、无鲨鱼、气清新”这六大特点著称于世。
+                                    </p>
+                                    <p>1991年7月正式建成对外开放， 1994年被评定为中国35个“王牌景点”中的“最美休憩地”。1997年前国家主席杨尚昆视察银滩时题词“天下第一滩”。
+                                        2000年被国家旅游局授予全国首批4A级旅游景区。2012年在搜狐旅游频道组织的“中国十大最美海滩”网络评选中，北海银滩荣获第三名。2015年12月批准为广西生态旅游示范区。
+                                        2016年在国家旅游局发布十一假日旅游“红黑榜”中，银滩景区荣登“红榜”旅游安全最佳景区。</p>
+                                </div>
+                            
+                                <div class="col-md-7">
+                                    <div id="demo" class="carousel slide" data-ride="carousel">
+            
+                                      <!-- Indicators -->
+                                      <ul class="carousel-indicators">
+                                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                        <li data-target="#demo" data-slide-to="1"></li>
+                                        <li data-target="#demo" data-slide-to="2"></li>
+                                      </ul>
+                                      
+                                      <!-- The slideshow -->
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <img src="/image/风景/yt.jpg" alt="" class="img-fluid rounded">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="/image/风景/yt1.jpg" alt="" class="img-fluid rounded">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="/image/风景/YT_2.jpg" alt="" class="img-fluid rounded">
+                                        </div>
+                                      </div>
+                                      
+                                      <!-- Left and right controls -->
+                                      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                        <span class="ion-ios-arrow-round-back"></span>
+                                      </a>
+                                      <a class="carousel-control-next" href="#demo" data-slide="next">
+                                        <span class="ion-ios-arrow-round-forward"></span>
+                                      </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                  </section>
+                </div>
+                <div class="item"><section class="ftco-section ftco-section-2 bg-primary" id="carousel"> 
+                    <div class="container">
+                        <div class="row justify-content-center" style="width: 100%; height: 100%;">
+                            <div class="col-md-5">
+                                <h2 class="heading-section mb-4 pb-md-3">
+                                    <!-- Bootstrap Carousel -->
+                                </h2>
+                                <p>冠头岭位于北海市西尽端，距市区8公里，岭长3公里，像一条青龙横卧在市区西南端， 由主峰望楼岭（前清曾设"望楼"于顶巅，海拔120米）与风门岭、丫髻岭、
+                                    天马岭等山峦群体组成，东北延伸至
+                                    石步岭南麓而止，同向潜脉与石步岭地角岭相连。整个山岭以形状"穹窿如冠"而得名。主峰高120米，登峰可观日出日落、万顷海涛和晚上点点渔火的迷人景色。
+                                     临海一面有海蚀平台陡岩，错落别致，千姿百态。
+                                </p>
+                               
+                            </div>
+                            <div class="col-md-7">
+                                <div id="demo" class="carousel slide" data-ride="carousel">
+        
+                                  <!-- Indicators -->
+                                  <ul class="carousel-indicators">
+                                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                    <li data-target="#demo" data-slide-to="1"></li>
+                                    <li data-target="#demo" data-slide-to="2"></li>
+                                  </ul>
+                                  
+                                  <!-- The slideshow -->
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <img src="/image/风景/gtl.jpg" alt="" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="/image/风景/gtl1.jpg" alt="" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="/image/风景/gtl2.jpg" alt="" class="img-fluid rounded">
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Left and right controls -->
+                                  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                    <span class="ion-ios-arrow-round-back"></span>
+                                  </a>
+                                  <a class="carousel-control-next" href="#demo" data-slide="next">
+                                    <span class="ion-ios-arrow-round-forward"></span>
+                                  </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </section></div>
+                <div class="item"><section class="ftco-section ftco-section-2 bg-primary" id="carousel"> 
+                    <div class="container">
+                        <div class="row justify-content-center" style="width: 100%; height: 100%;">
+                            <div class="col-md-5">
+                                <h2 class="heading-section mb-4 pb-md-3">
+                                    <!-- Bootstrap Carousel -->
+                                </h2>
+                                <p>涠洲岛，位于广西壮族自治区北海市北部湾海域中部，北临广西北海市，东望雷州半岛，东南与斜阳岛毗邻，南与海南岛隔海相望，西面面向越南。
+                                    涠洲岛总面积24.74平方千米 [1]  ，岛的最高海拔79米。岛内景区包括鳄鱼山景区、滴水丹屏景区、石螺口景区、天主教堂景区和五彩滩景区等。
+                                    涠洲岛是火山喷发堆凝而成的岛屿，有海蚀、海积及溶岩等景观，有“蓬莱岛”之称，是中国地质年龄最年轻的火山岛，也是广西最大的海岛。 [2] 
+                                    2020年12月16日，拟确定为国家5A级旅游景区。 [3] </p>
+                            </div>
+                            <div class="col-md-7">
+                                <div id="demo" class="carousel slide" data-ride="carousel">
+        
+                                  <!-- Indicators -->
+                                  <ul class="carousel-indicators">
+                                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                    <li data-target="#demo" data-slide-to="1"></li>
+                                    <li data-target="#demo" data-slide-to="2"></li>
+                                  </ul>
+                                  
+                                  <!-- The slideshow -->
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <img src="/image/风景/涠洲岛.jpg" alt="" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="/image/风景/涠洲岛1.jpg" alt="" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="/image/风景/涠洲岛2.jpg" alt="" class="img-fluid rounded">
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Left and right controls -->
+                                  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                    <span class="ion-ios-arrow-round-back"></span>
+                                  </a>
+                                  <a class="carousel-control-next" href="#demo" data-slide="next">
+                                    <span class="ion-ios-arrow-round-forward"></span>
+                                  </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </section></div>
+                <div class="item"><section class="ftco-section ftco-section-2 bg-primary" id="carousel"> 
+                    <div class="container">
+                        <div class="row justify-content-center" style="width: 100%; height: 100%;">
+                            <div class="col-md-5">
+                                <h2 class="heading-section mb-4 pb-md-3">
+                                    <!-- Bootstrap Carousel -->
+                                </h2>
+                                <p>红树林是热带、亚热带海岸潮间带特有的胎生木本植物群落，素有"海上森林"之称，
+                                    幽秘神奇、倚海而生，随潮涨而隐、潮退而现，是国家级重点保护的珍稀植物。
+                                    北海山口镇的国家级红树林自然保护区位于广西北海市合浦县境内，海岸线长50公里，面积8000公顷，光热充足，
+                                </p>
+                                <p>港湾深入内陆，封闭好，海水污染程度低，理化性质稳定，滩涂淤泥肥沃，适宜于红树林生长，保护红树林面积为7.2平方公里，
+                                    共有红海榄树、秋茄、桐花树等12种红树林植物，是广西乃至全国大陆海岸发育良好，连片大，结构较典型，保护较完整的红树林区。</p>
+                        
+                            </div>
+                            <div class="col-md-7">
+                                <div id="demo" class="carousel slide" data-ride="carousel">
+        
+                                  <!-- Indicators -->
+                                  <ul class="carousel-indicators">
+                                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                    <li data-target="#demo" data-slide-to="1"></li>
+                                    <li data-target="#demo" data-slide-to="2"></li>
+                                  </ul>
+                                  
+                                  <!-- The slideshow -->
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <img src="/image/风景/hsl.jpg" alt="" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="/image/风景/hsl1.jpg" alt="" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="/image/风景/hssc.jpg" alt="" class="img-fluid rounded">
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Left and right controls -->
+                                  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                    <span class="ion-ios-arrow-round-back"></span>
+                                  </a>
+                                  <a class="carousel-control-next" href="#demo" data-slide="next">
+                                    <span class="ion-ios-arrow-round-forward"></span>
+                                  </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </section>
+            </div>
+                <div class="item">
+                  <section class="ftco-section ftco-section-2 bg-primary" id="carousel"> 
+                    <div class="container">
+                        <div class="row justify-content-center" style="width: 100%; height: 100%;">
+                            <div class="col-md-5">
+                                <h2 class="heading-section mb-4 pb-md-3">
+                                    <!-- Bootstrap Carousel -->
+                                </h2>
+                                <p>涠洲岛的美景</p>
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                <p><a href="#" class="btn btn-white">See all components</a></p>
+                            </div>
+                            <div class="col-md-7">
+                                <div id="demo" class="carousel slide" data-ride="carousel">
+        
+                                  <!-- Indicators -->
+                                  <ul class="carousel-indicators">
+                                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                    <li data-target="#demo" data-slide-to="1"></li>
+                                    <li data-target="#demo" data-slide-to="2"></li>
+                                  </ul>
+                                  
+                                  <!-- The slideshow -->
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <img src="/image/destination5.jpg" alt="" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="/image/destination3.jpg" alt="" class="img-fluid rounded">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="/image/destination2.jpg" alt="" class="img-fluid rounded">
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Left and right controls -->
+                                  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                    <span class="ion-ios-arrow-round-back"></span>
+                                  </a>
+                                  <a class="carousel-control-next" href="#demo" data-slide="next">
+                                    <span class="ion-ios-arrow-round-forward"></span>
+                                  </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </section>
+            </div>
+              </div>
+            </div>
+        
+
+
+
+    <!-- 新闻动态 -->
+    <div class="row-a6">
+      <div class="m-tit2 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+          <h3><span>旅游动态</span></h3><em></em>
+      </div>
+      <div class="wp">
+          <ul class="ul-news01 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <li>
+                  <div class="time">
+                      <span></span><em>2020-7-4</em>
+                  </div>
+                  <div class="txt">
+                      <h3><a href="http://www.beihai.gov.cn/lygg/lyxx/202106/t20210618_2427024.html" title="绿化苗木的培育栽植方法介绍">北海人气爆满</a></h3>
+                     <p>文化火了，旅游旺了！北海端午假日接待游客77.6万人次</p>
+                  </div>
+              </li>
+                <li>
+                  <div class="time">
+                      <span></span><em>2020-7-4</em>
+                  </div>
+                  <div class="txt">
+                      <h3><a href="http://www.beihai.gov.cn/lygg/lyxx/202106/t20210608_2423192.html" title="园林绿化改造工程施工常见误区，您中招了吗？">见过广西的非遗购物节吗</a></h3>
+                      <p>逛市集，探风物，赏非遗，广西“非遗购物节”即将在北海上线！</p>
+                  </div>
+              </li>
+                <li>
+                  <div class="time">
+                      <span></span><em>2020-7-4</em>
+                  </div>
+                  <div class="txt">
+                      <h3><a href="http://www.beihai.gov.cn/lygg/lyxx/202106/t20210603_2420822.html" title="园林绿化不同等级资质承揽工程范围">加强海边安全措施</a></h3>
+                      <p>银滩景区强化海上安全管理，筑牢安全防线</p>
+                  </div>
+              </li>
+                <li>
+                  <div class="time">
+                      <span></span><em>2020-7-4</em>
+                  </div>
+                  <div class="txt">
+                      <h3><a href="http://www.beihai.gov.cn/lygg/lyxx/202105/t20210524_2416900.html" title="园林绿化公司为您解析树木长势衰弱、叶小发黄的原因">红树林生态越发变好</a></h3>
+                      <p>红树连绵、海鸟翩翩，生态保护和生态旅游发展相得益彰</p>
+                  </div>
+              </li>
+                <li>
+                  <div class="time">
+                      <span></span><em>2020-7-4</em>
+                  </div>
+                  <div class="txt">
+                      <h3><a href="/article/5.html" title="园林绿化公司带您了解夏季绿化养护小知识">这个夏天我们一起去海边</a></h3>
+                      <p>造热潮音，夏日漫游，5.16我们吹着海风相见</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </div>
+
+  <!-- footer底部 -->
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div id="footer_box">
+                    <div id="footer_box01">
+                        <img src="/image/风景/浪花.jpg" >
+                    </div>
+                    <div id="footer_box02">
+                        <img src="/image/风景/日落.jpg" >
+                    </div>
+                    <div id="footer_box03">
+                        <img src="/image/风景/浪花.jpg" >
+                    </div>
+                    <div id="footer_box04">
+                        <img src="/image/风景/海边1.jpg" >
+                    </div>
+                    <div id="footer_box05">
+                        <img src="/image/风景/风景4.jpg">
+                    </div>
+                    <div id="footer_box06">
+                        <img src="/image/风景/涠洲岛3.jpg" >
+                    </div>
+                </div>
+                <div class="one"><p>Copyright ©2021 最终解释权归191203040505蒲宏宇所有 桂林电子科技大学</p></div>
+        </div>     
+    </div>
+</footer>        
+  <!-- <footer class="footer-section ftco-section-2">
+    <div class="col-md-12 text-center">
+        <div class="container">
+        <div id="footer_box" class="mb-4">
+            <div id="footer_box01">
+                <img src="/image/destination4.jpg" >
+            </div>
+            <div id="footer_box02">
+                <img src="/image/destination3.jpg" >
+            </div>
+            <div id="footer_box03">
+                <img src="/image/destination1.jpg" >
+            </div>
+            <div id="footer_box04">
+                <img src="/image/destination6.jpg" >
+            </div>
+            <div id="footer_box05">
+                <img src="/image/destination5.jpg">
+            </div>
+            <div id="footer_box06">
+                <img src="/image/destination3.jpg" >
+            </div>
+        </div>
+    </div>
+    <p class="mb-8">
+      Copyright &copy;<script>
+        document.write(new Date().getFullYear());
+      </script> 最终解释权归191203040505蒲宏宇所有 <i class="icon-heart" aria-hidden="true"></i> 桂林电子科技大学 <a href="https://colorlib.com" target="_blank">Colorlib</a>
+     
+    </p>
+  </div>
+</footer> -->
+
+
+    <!-- jQuery js -->
+    <script src="js/jquery.js"></script>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="/jquery-3.6.0.min.js"></script>
+    <script src="/js/jquery-1.7.0.js"></script>
+    
+     <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/bootstrap-4.6.0-dist/js/meanmenu.min.js"></script>
+    <script src="/bootstrap-4.6.0-dist/js/script.js"></script>
+
+    <!-- 自己js -->
+    <script src="/js/table栏切换.js"></script>
+    <script src="/js/002.js"></script>
+    <script src="/js/zhidonbofang.js"></script>
+		
+</body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css和js -->
+    <link rel="stylesheet" href="/bootstrap-4.6.0-dist/css/bootstrap.css" >
+    <link rel="stylesheet" href="/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+  <script src="/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+  <!--导航栏css  -->
+  <link rel="stylesheet" href="/css/美景.css">
+  <link rel="stylesheet" href="/lib/icofont/css/icofont.css"/>
+  <link rel="stylesheet" href="/bootstrap-4.6.0-dist/css/ionicons.min.css">
+  <link rel="stylesheet" href="/bootstrap-4.6.0-dist/css/meanmenu.min.css">
+  <link rel="stylesheet" href="/bootstrap-4.6.0-dist/css/boxicons.min.css">
+
+  <!-- 北海美食 css -->
+  <link rel="stylesheet" href="/css/北海美食.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="header-area">
+        <div class="main-navbar-area">
+            <div class="main-responsive-nav">
+                <div class="container">
+                    <div class="main-responsive-menu">
+                        <div class="logo">
+                            <a href="index.html">
+                               <img src="/image/美食/w.png" alt="">
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-nav">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="index.html">
+                          <img src="/image/美食/w.png" alt="">
+                        </a>
+                        <div class="collapse navbar-collapse mean-menu">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link active toggle">首页</a>
+                                    <ul class="dropdown-menu">
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="北海美食.html" class="nav-link toggle">北海美食</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="特色美食.html" class="nav-link">特色美食</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="美食排行榜.html" class="nav-link">美食排行榜</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="线路推荐.html" class="nav-link">美食路线</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link toggle">北海历史</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="北海简介.html" class="nav-link">北海简介</a>
+                                        </li>
+                                
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item"><a href="北海美景.html" class="nav-link toggle">北海美景</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="线路推荐.html" class="nav-link">线路推荐</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- 美食轮播图 -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+ 
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+       
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/image/背景/吃.jpg">
+            <div class="carousel-caption">
+              <h3>虾饼</h3>
+             
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/image/背景/吃2.jpg">
+            <div class="carousel-caption">
+              <h3>粉条</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/image/背景/吃3jpg.jpg">
+            <div class="carousel-caption">
+              <h3>海鲜</h3>
+            </div>
+          </div>
+        </div>
+       
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+       
+      </div>
+    <!-- 美食 -->
+    <br>
+    <div class="page-title-area ptb-100">
+        <div class="container">
+            <div class="page-title-content">
+                <h1>北海的美食</h1>
+                <ul>
+                    <li class="item"><a href="index.html">首页</a></li>
+                    <li class="item"><a href="team.html"><i >-></i>北海美食</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bg-image">
+            <img src="/image/背景/老北海.jpg" alt="Demo Image">
+        </div>
+    </div>
+     <!-- 美食特点 -->
+     <div class="tedian fadeInDown">    
+        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">北海美食特点</font></font></h2>
+        <p class="lead"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">北海有丰盛高贵的鲁菜、调味多样的川菜和博采众长的粤菜。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">北海因其历史上曾隶属广东省管辖，其菜肴主要以粤菜为主。 </font><font style="vertical-align: inherit;">粤菜是指广东风味菜肴，较之鲁、川菜系，是一个起步较晚的菜系。</font><font style="vertical-align: inherit;">它萌生于秦，成雏形于汉魏，</font><font style="vertical-align: inherit;">完成于明清。</font></font></p>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center" style="width: 100%; height: 100%;">
+            <div class="col-md-4">
+                <div class="service">
+                    <div class="icon-holder">
+                        
+                    </div>
+                    <h4 class="heading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">食材新鲜</font></font></h4>
+                    <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  北海是一座拥抱海洋的城市
+                        足够慷慨的海洋资源带给了这座城市丰富的各类海产品，
+                        每天有很多渔船停靠在各大码头，
+                        当天就可以上岸，而北海当地的"吃货"们，肯定不会"放过"这么好的"就地取材"方式。</font></font></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service">
+                    <div class="icon-holder">
+                        
+                    </div>
+                    <h4 class="heading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">味道鲜美</font></font></h4>
+                    <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">三面环海的水域优势也给北海带来了丰富的渔业资源。北海现有经济渔类500多种，虾类30多种，主要特色产品有海参，鲍鱼，沙虫，石斑，鱿鱼，墨鱼等，是我国的四大渔场之一。</font></font></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service">
+                    <div class="icon-holder">
+                      
+                    </div>
+                    <h4 class="heading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">价格便宜</font></font></h4>
+                    <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于北海市一座靠海的城市，想吃海鲜非常便捷，不需要经过长途邮寄等，直接就能在海边买到所以海鲜便宜</font></font></p>
+                </div>
+            </div>
+        </div>
+    
+
+    </div>
+    <!--美食展览-->
+    <div class="tedian fadeInDown">    
+        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">北海美食介绍</font></font></h2>
+        <p class="lead"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且最吸引人的一点，当然就是北海的美食了！北海是一个沿海城市，海鲜当然是少不了！</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在北海深受本地人和外地游客的欢迎， </font><font style="vertical-align: inherit;">这个夏天你要是去北海玩， </font><font style="vertical-align: inherit;"></font><font style="vertical-align: inherit;">那就一定不要错过这五种北海特色小吃了！</font></font></p>
+    </div>
+    <div class="container">
+        <div class="row row1 justify-content-center" style="width: 100%; height: 100%;">
+            <div class="col-md-4 service">
+                <div class="box1">
+                    <div class="box2"></div>
+                    <div class="box3">
+                        <h3>风情水果捞</h3>  
+                    </div>
+                    <div class="box4">
+                        <h3>风情水果捞<br><span>地点：侨港</span></h3>
+                        <p>有西瓜，芒果和火龙果各种水果的混合相当好吃</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 service">
+                <div class="box1-1">
+                    <div class="box2"></div>
+                    <div class="box3">
+                        <h3>芒果绵绵冰</h3>
+                    </div>
+                    <div class="box4">
+                        <h3>芒果绵绵冰<br><span>地点：侨港</span></h3>
+                        <p>有着芒果的味道，和冰沙混合在一起，赞不绝口</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 service">
+                <div class="box1-2">
+                    <div class="box2"></div>
+                    <div class="box3">
+                        <h3>糖水</h3>
+                    </div>
+                    <div class="box4">
+                        <h3>糖水<br><span>地点：侨港</span></h3>
+                        <p>水果种类很多,椰汁味道浓郁，好吃划算,是夏日不可或缺的一道甜点</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 service">
+                <div class="box1-3">
+                    <div class="box2"></div>
+                    <div class="box3">
+                        <h3>海鲜</h3>
+                    </div>
+                    <div class="box4">
+                        <h3>海鲜<br><span>地点：侨港</span></h3>
+                        <p>中国海鲜看广西，广西海鲜看北海，北海的海鲜给你别致的味道</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 service">
+                <div class="box1-4">
+                    <div class="box2"></div>
+                    <div class="box3">
+                        <h3>清蒸鱼</h3>
+                    </div>
+                    <div class="box4">
+                        <h3>清蒸鱼<br><span>地点：侨港</span></h3>
+                        <p>北海临海，每天都有大量的渔船出海打渔，每天都能吃到新鲜的鱼</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 service">
+                <div class="box1-5">
+                    <div class="box2"></div>
+                    <div class="box3">
+                        <h3>螺</h3>
+                    </div>
+                    <div class="box4">
+                        <h3>螺<br><span>地点：侨港</span></h3>
+                        <p>北海因为靠近海边，又是在北部湾边上，北部湾的花甲螺向来都是以肉多著称，所以北海的花甲螺赞不绝口。</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 美食地方推荐 -->
+    <div  class="tedian fadeInDown">    
+        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">美食餐厅必打卡</font></font></h2>
+        <h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">越香小厨</font></font></h4>
+        <p class="lead"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这家餐厅真的很棒!在北海侨港的风情街是必去打卡的餐厅之一，在众多美食顾客反馈来说无论是口味还是服务都是很好的一家餐厅 </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> </font><font style="vertical-align: inherit;"> </font><font style="vertical-align: inherit;"></font><font style="vertical-align: inherit;"></font></font></p>
+        
+    </div>
+    <br><br>
+    <div id="foodplace" class="container">
+        <div class="row row1 justify-content-center" style="width: 100%; height: 100%; border: 1px solid rgb(46, 45, 45,0.5);">
+            <div class="col-md-6 " style="width: 300px;height: 300px;"><img src="/image/美食/越香小厨.jpg" alt="" style="width: 558px;height: 300px;"></div>
+            <div class="col-md-6 " style="width: 300px;height: 300px;">
+                <h3>芒果绵绵冰</h3>
+                <p>特色的芒果口味冰沙，用细腻的冰沙和芒果的风味混合后，给你一种别致的口味体验</p>
+                <br>
+                <h3>越南风情水果捞</h3>
+                <p>天气太热又怕油腻来个解腻的水果捞~里边火龙果 香蕉 哈密瓜 西瓜还有椰子片和椰浆 我觉得挺棒~如果放点酸奶和坚果就好了 【口味】</p>
+            </div>
+        </div> 
+    </div>
+    <!-- 美食文化 -->
+    <div class="tedian fadeInDown">    
+        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">北海美食文化</font></font></h2>
+        <p class="lead">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">广西北海市的“北海”一名来自其海城区地角镇的同名渔村“北海村”，
+                    由于此地最早开发人群都是蛋家渔民。</font>
+            </font>
+            <br>
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">1965年6月，北海由广东省划归广西壮族自治区，北海之名也一直沿用至今。</font>
+                <font style="vertical-align: inherit;"> 北海因其历史上曾隶属广东省管辖，其菜肴深受粤菜影响。 </font><br>
+                <font style="vertical-align: inherit;"> 粤菜是指广东风味菜肴，</font>
+                <font style="vertical-align: inherit;">粤菜是指广东风味菜肴，较之鲁、川菜系，是一个起步较晚的菜系。</font>
+            </font>
+        </p>
+    </div>
+    <div id="meishi" class="container">
+        <div class="row justify-content-center" style="width: 100%; height: 500px;">
+            <div class="col-md-4" >
+                <div class="image">
+                        <img src="/image/美食/can3.jpg" alt="image">
+                </div>
+            </div>
+            <div class="col-md-8" style="background-color:#f9f8fe ;">
+                <h1><a href="https://baijiahao.baidu.com/s?id=1664829019746066497&wfr=spider&for=pc">走进北海，品尝北海特色美食小吃，领略海滨城市饮食文化！</a></h1>    
+                    
+            </div>
+
+            <div class="col-md-4" >
+                <div class="image">
+                        <img src="/image/美食/杀虫1.jpeg" alt="image">
+                </div>
+            </div>
+            <div class="col-md-8" style="background-color:#f9f8fe ;">
+                <h1><a href="https://lxs.cncn.com/63833/n580435">北海美食攻略|舌尖上的北海沙虫篇</a></h1>    
+                  
+            </div>
+
+            <div class="col-md-4" >
+                <div class="image">
+                        <img src="/image/美食/food3.jpg" alt="image">
+                </div>
+            </div>
+            <div class="col-md-8" style="background-color:#f9f8fe ;">
+                <h1><a href="http://www.360doc.com/content/16/0817/03/31289937_583754372.shtml">北海疍家习俗</a></h1>    
+                   
+            </div>
+
+            <div class="col-md-4" >
+                    <div class="image">
+                        <img src="/image/美食/can4.jpg" alt="image">
+                    </div>
+            </div>
+            <div class="col-md-8" style="background-color:#f9f8fe ;">
+                <h1><a href="http://www.mafengwo.cn/i/1141221.html?water=1">情“陷”北海之老街风貌篇,美食篇,旅游攻略 - 马蜂窝</a></h1>       
+            </div>
+
+            <div class="col-md-4"> 
+                <div class="image">
+                        <img src="/image/美食/can.jpg" alt="image">
+                </div>
+            </div>
+            <div class="col-md-8" style="background-color:#f9f8fe ;" >
+                <h1><a href="http://www.ddanl.com/mszt/meishijingxuan/70297.html">北海饮食特色美食</a></h1>       
+            </div>
+
+
+        </div>
+
+    </div>
+  <br><br>
+  <div class="jumbotron text-center" style="position: relative; bottom:-900px">
+      <p>Copyright ©2021 最终解释权归191203040505蒲宏宇所有 桂林电子科技大学</p>
+</div>
+</body>
+ <!-- jQuery js -->
+ <script src="js/jquery.js"></script>
+ <script src="/jquery-3.6.0.min.js"></script>
+ <script src="/js/jquery-1.7.0.js"></script>
+ 
+  <!-- bootstrap js -->
+ <script src="assets/js/bootstrap.min.js"></script>
+ <script src="/bootstrap-4.6.0-dist/js/meanmenu.min.js"></script>
+ <script src="/bootstrap-4.6.0-dist/js/script.js"></script>
+</html>

@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,li{
+    list-style-image: none;
+    list-style-type: none;
+}
+.wrap ul li{
+
+margin-top: 40px;
+}
+.wrap{
+border: 3px solid #B8A18E;
+width: 1110px;
+height: 150px;
+position: relative;
+overflow: hidden;
+margin: 0px auto;
+margin-bottom: 10px;
+}
+
+.wrap ul{
+overflow: hidden;
+position:absolute;
+width: 1600px;
+left: 0;
+top: -20px;
+_height:1px;
+list-style:none;
+}
+
+.wrap ul li{
+float: left;
+width: 200px;
+}
+
+@media only screen and (max-width: 676px){
+
+.wrap{
+width: 400px;
+height: 150px;
+}
+}
+@media only screen and (max-width: 900px){
+    .wrap{
+        width: 800px;
+        height: 150px;
+        } 
+}
